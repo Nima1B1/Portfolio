@@ -1,0 +1,302 @@
+:root{
+    --primary-color : rgb(102, 0, 219);
+
+    --secolor: rgb(0, 204, 255), rgb(0, 255, 76), orange;
+ 
+    --background-color : rgb(43, 43, 46);
+ 
+    --dark-background-color : rgb(33, 33, 36);
+ 
+    --second-background-color: rgb(62, 62, 65);
+ 
+    --light-background-color: rgb(97, 97, 104);
+ 
+    --font-white: rgb(239, 250, 255);
+ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    transition: 0.3s;
+ 
+}
+ 
+html{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--second-background-color);
+}
+ 
+#header{
+    background-color: var(--background-color);
+    color: var(--font-white);
+    text-align: left;
+}
+ 
+#header #title{
+    padding: 20px 50px;
+    font-size: 40px;
+}
+ 
+#lineheaderbody{
+    background-color: var(--primary-color);
+    height: 10px;
+    cursor: pointer;
+}
+
+@keyframes test{
+    0%{ rotate: 0deg;}
+    50%{ rotate: 180deg;}
+    100%{ rotate: 350deg;}
+}
+ 
+#mainbody {
+    background-color: var(--light-background-color);
+    height: 100vh;
+}
+ 
+#listpage{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+    justify-content: space-between;
+    height: 100%;
+}
+ 
+.page{
+    color: var(--font-white);
+    text-decoration: none;
+    cursor: pointer;
+    margin: 3vh auto;
+    max-width: 400px;
+    min-width: 200px;
+    background-color: var(--background-color);
+    border: var(--dark-background-color) solid 2px;
+    border-radius: 0.4vw;
+    transition: 0.2s;
+}
+ 
+ .page:hover{
+    max-width: 250px;
+ }
+ 
+ 
+#titlepages{
+    border: var(--dark-background-color) solid 1px;
+    padding: 20px 20px 15px 20px;
+    text-align: center;
+    font-size: 26px;
+}
+ 
+#text{
+    padding: 15px 15px 10px 15px;
+}
+ 
+#cover{
+    background-color: var(--primary-color);
+    padding: 2px;
+    border: 1px var(--primary-color);
+    border-radius: 50%;
+    transition: 0.2s;
+}
+ 
+.bott{
+    transition: 0.17s;
+}
+ 
+ 
+#footer{
+    padding: 2vh 10px;
+}
+
+/* about me page */
+
+#troll{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+    display: none;
+}
+
+#iranhead{
+    display: inline;
+    position: relative;
+}
+
+#iran{
+    text-decoration-line: underline ;
+    color: var(--font-white);
+}
+
+#iranimg{
+    transition: 0.3s;
+    width: 150px;
+    height: auto;
+    top: -100px;
+    left: -55px;
+    position: absolute;
+    opacity: 0;
+    border: 2px solid rgb(255, 230, 0);
+    border-radius: 5px;
+}
+
+#troll:hover{
+    transform: translate(10vw, -10vh);
+}
+
+#mainbody{
+    background-color: var(--light-background-color);
+    margin: 20px;
+}
+
+#aboutmewholetext{
+    color: var(--font-white);
+    
+}
+
+#aboutmehead{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+#aboutmebodytext{
+    margin: 50px;
+    font-size: 26px;
+}
+
+#navtohome{
+    color: var(--font-white);
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+    
+}
+
+#languagerepresent{
+    text-align: center;
+    color: var(--font-whites);
+    margin: 50px;
+    font-size: 20px;
+}
+
+#textinlanguage{
+    color: var(--font-white);
+}
+
+#languagecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+    justify-content: space-between;}
+
+#languageimg{
+    width: 200px;
+    
+}
+
+p{
+    color: var(--font-white);
+
+}
+.iranflag{
+    border: 2px rgb(255, 208, 0) solid;
+    height: 120px;
+}
+
+.ukflag{
+    border: 2px rgb(221, 12, 64) solid;
+    height: 120px;
+}
+
+.gerflag{
+    border: 2px rgb(255, 102, 0) solid;
+    height: 120px;
+}
+
+.rusflag{
+    border: 2px rgb(0, 47, 255) solid;
+    height: 120px;
+}
+
+
+/* Experience */
+
+#titlesforpages{
+    display: inline-flex;
+    position: relative;
+}
+
+#titleheaderforpages{
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+#verticalline{
+    height: auto;
+    border: 5px var(--primary-color) solid;
+    display: none;
+}
+
+#horiline{
+    position: relative;
+    bottom: 10px;
+    width: auto;
+    border: 5px var(--primary-color) solid;
+    display: none;
+}
+
+#expimg{
+    height: 100px;
+    width: auto;
+}
+
+#textexp{
+     margin-top: 50px;
+}
+
+/* education */
+
+
+/* skills */
+
+#skillflex{
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+#skilloption{
+    font-size: 20px;
+    margin: auto;
+}
+
+/* qualifications */
+
+#qualificationsflex{
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+#quaoption{
+    font-size: 20px;
+    margin: auto;
+    
+}
