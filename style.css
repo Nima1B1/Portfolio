@@ -57,6 +57,7 @@ body{
     background-color: var(--light-background-color);
     min-height: 90vh;
     padding: 50px;
+    color: var(--font-white);
     
 }
  
@@ -288,6 +289,12 @@ p{
     width: auto;
     border: 5px var(--primary-color) solid;
     display: none;
+}
+
+#listexp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .expsec{
