@@ -293,13 +293,14 @@ p{
 
 #expimg{
     margin: 20px 10px;
-    height: 100px;
-    width: auto;
+    height: auto;
+    width: 200px;
 }
 
 #textexp{
      margin-top: 50px;
      max-width: 500px;
+     text-align: left;
      
 }
 
