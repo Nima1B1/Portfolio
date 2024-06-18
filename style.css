@@ -279,10 +279,10 @@ p{
 
 #listexp{
     display: flex;
-    
     justify-content: center;
     align-items: center;
     color: var(--font-white);
+
 }
 
 .expsec{
@@ -300,7 +300,6 @@ p{
 #textexp{
      margin-top: 50px;
      max-width: 500px;
-     text-align: left;
      
 }
 
