@@ -55,6 +55,8 @@ body{
  
 #mainbody {
     background-color: var(--light-background-color);
+    min-height: 90vh;
+    padding: 50px;
     
 }
  
@@ -111,6 +113,30 @@ body{
  
 #footer{
     padding: 2vh 10px;
+    color: var(--font-white);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+#footerlist{
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    flex: auto;
+    margin: auto;
+    align-items: center;
+    
+    
+}
+
+#footericon img{
+    width: 70px;
+    height: auto;
+    margin: 0px 60px;
+    
 }
 
 /* about me page */
