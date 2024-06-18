@@ -290,13 +290,20 @@ p{
     display: none;
 }
 
+.expsec{
+    max-width: 1000px;
+}
+
 #expimg{
-    height: 100px;
-    width: auto;
+    margin: 20px 10px;
+    height: auto;
+    width: 100px;
 }
 
 #textexp{
      margin-top: 50px;
+     max-width: 500px;
+     
 }
 
 /* education */
