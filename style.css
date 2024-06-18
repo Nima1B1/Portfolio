@@ -277,23 +277,9 @@ p{
     text-align: center;
 }
 
-#verticalline{
-    height: auto;
-    border: 5px var(--primary-color) solid;
-    display: none;
-}
-
-#horiline{
-    position: relative;
-    bottom: 10px;
-    width: auto;
-    border: 5px var(--primary-color) solid;
-    display: none;
-}
-
 #listexp{
     display: flex;
-    flex-wrap: wrap;
+    
     justify-content: center;
     align-items: center;
     color: var(--font-white);
@@ -301,11 +287,13 @@ p{
 
 .expsec{
     max-width: 1000px;
+    justify-content: center;
+    align-items: center;
 }
 
 #expimg{
     margin: 20px 10px;
-    height: 250px;
+    height: 100px;
     width: auto;
 }
 
