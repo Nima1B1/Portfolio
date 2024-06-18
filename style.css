@@ -295,6 +295,8 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    color: var(--font-white);
 }
 
 .expsec{
@@ -303,8 +305,8 @@ p{
 
 #expimg{
     margin: 20px 10px;
-    height: auto;
-    width: 100px;
+    height: 100px;
+    width: auto;
 }
 
 #textexp{
